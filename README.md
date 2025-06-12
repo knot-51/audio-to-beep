@@ -15,5 +15,5 @@ This is my final year project for Audio to Sheet Music Converter, it has not rea
 - Matplotlib (optional for plotting)
 
 ## How to Use
-Run the original audio through a vocal separator tools like OpenUnmix or BandLab.com
-Change the audio_file_input to desired directory and interval to desired value then run.
+- Run the original audio through a vocal separator tools like OpenUnmix or BandLab.com
+- Change the audio_file_input to desired directory and interval to desired value then run.
