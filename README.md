@@ -1,6 +1,6 @@
-# audio-to-beep
+# Audio-to-Beep
 Extract dominant frequencies from audio(preferably a vocal only) and generate beep sounds.
-This is my final year project for Audio to Sheet Music Converter, it has not reached the sheet music part so it creates a beep instead.
+This is an early prototype for my final-year project, originally intended as an **Audio to Sheet Music Converter**. Since sheet music rendering is not yet implemented, the current version outputs beeps instead of musical notation.
 
 ## Features
 - Frequency detection using FFT
@@ -12,8 +12,11 @@ This is my final year project for Audio to Sheet Music Converter, it has not rea
 - Python
 - NumPy
 - SciPy
-- Matplotlib (optional for plotting)
+- Matplotlib (for plotting)
 
 ## How to Use
 - Run the original audio through a vocal separator tools like OpenUnmix or BandLab.com
-- Change the audio_file_input to desired directory and interval to desired value then run.
+- Open the Python file and set:
+   - `audio_file_input` to the path of your processed vocal-only file  
+   - `interval` to your desired sampling interval (in seconds)
+- Run the code and get the output file frome the code's directory
